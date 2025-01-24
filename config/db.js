@@ -7,7 +7,7 @@ const connectdb=async()=>{
 
     }catch(error){
 
-        console.error(error.message)
+        console.error("Connnection failed")
 
     }
 }
